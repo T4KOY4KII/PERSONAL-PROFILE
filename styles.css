@@ -1,13 +1,68 @@
-:root{
-    background: linear-gradient(180deg, cadetblue, dodgerblue);
+/* Background */
+:root {
+  background: cadetblue; /* Fallback color for browsers that don't support background-attachment: fixed */
 }
 
-body{
-    font-family: Arial, sans-serif;
-    height: 100vh;
-    width: 100%;
+/* Body alignment */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
+/* Header with title */
+header{
+    display: flex;
+    background-color: #AFC6C4;
+    padding: 50px;
+    margin-top: 2px;
+}
+
+#main-title{
+    margin: 0 auto;
+}
+
+/* Profile picture */
+
+
+/* Profile cards */
 .card{
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
 }
+
+/* Links for favorite websites */
+
+a {
+color: green;
+text-decoration: none;
+}
+
+a:hover {
+color: red;
+}
+
+/* Footer Section */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #AFC6C4;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
