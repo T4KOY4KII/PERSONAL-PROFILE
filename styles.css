@@ -38,11 +38,12 @@ header{
     background-color: #e6f4ff;
     border-radius: 16px;
     margin-top: 10px;
+    border: solid 1px gray;
 }
 
-#profile-container img{
+#profile-container, img{
     padding: 15px;
-    border-radius: 16px;
+    border-radius: 20px;
 }
 
 #img-container{
@@ -61,11 +62,21 @@ header{
     padding: 2px 16px;
     margin-bottom: 12px;
     margin-top: 12px;
+    border: solid 1px gray;
 }
 
 /* List items */
-ul {
-    text-decoration: none;
+ul li {
+    display: inline;
+    list-style: none;
+}
+
+li:after{
+    content:", ";
+}
+
+li:last-child:after{
+    content: "";
 }
 /* Links for favorite websites */
 
