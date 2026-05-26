@@ -16,28 +16,26 @@ html, body {
 /* Header with title */
 header{
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #AFC6C4;
     padding: 30px;
     margin-bottom: 30px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-#main-title{
-    margin: 0 auto;
-}
-
 /* Profile picture */
 #profile-container{
     display: flex;
     justify-content: center;
-    margin: auto;
+    align-items: center;
     flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 40%;
     padding: 2px 16px;
     background-color: #e6f4ff;
     border-radius: 16px;
-    margin-top: 10px;
+    margin: 0 auto;
     border: solid 1px gray;
 }
 
@@ -65,19 +63,6 @@ header{
     border: solid 1px gray;
 }
 
-/* List items */
-ul li {
-    display: inline;
-    list-style: none;
-}
-
-li:after{
-    content:", ";
-}
-
-li:last-child:after{
-    content: "";
-}
 /* Links for favorite websites */
 
 a {
